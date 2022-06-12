@@ -88,7 +88,7 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown", disable_web_page_preview=True)
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=PredatorHackerzZ_{str_to_b64(file_er_id)}"
         await editable.edit(
-            f"**🗃️ File Details:**\n\n💽 Mime Type: \n\n📊 File Size:\n\n🎞 Duration:"
+            f"**🗃️ File Details:**\n\n💽 Mime Type: `{me.first_name}`\n\n📊 File Size:\n\n🎞 Duration:"
             f"Just Click On the Link to Reterive the Files!",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
