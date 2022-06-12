@@ -86,15 +86,15 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
         await forwarded_msg.reply_text(
             f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!",
             parse_mode="Markdown", disable_web_page_preview=True)
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=PredatorHackerzZ_{str_to_b64(file_er_id)}"
+        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=SudhirKumar_{str_to_b64(file_er_id)}"
         await editable.edit(
-            f"**🗃️ File Details:**\n\n💽 Mime Type: `{me.first_name}`\n\n📊 File Size:\n\n🎞 Duration:"
+            f"**🗃️File Sucess fully Stored\n\Share File Link {share_link}"
             f"Just Click On the Link to Reterive the Files!",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/TeleRoidGroup"),
-                  InlineKeyboardButton("⭕ Support ⭕", url="https://t.me/TeleRoid14")]]
+                 [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/shyams_technical"),
+                  InlineKeyboardButton("⭕ Support ⭕", url="https://t.me/shyams_technical")]]
             ),
             disable_web_page_preview=True
         )
