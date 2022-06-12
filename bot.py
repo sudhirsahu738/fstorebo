@@ -49,16 +49,8 @@ async def start(bot: Client, cmd: Message):
 					[
 						InlineKeyboardButton("👨‍🔧ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ", callback_data="aboutdevs"),
 
-						InlineKeyboardButton("👥 Aʙᴏᴜᴛ ", callback_data="aboutbot")
+						InlineKeyboardButton("👥 ᴀʙᴏᴜᴛ ", callback_data="aboutbot")
                                         ],
-
-
-
-
-
-                                        [
-						InlineKeyboardButton("👥 ᴀʙᴏᴜᴛ ", callback_data="aboutbot") 
-					]
 				]
             )
         )
