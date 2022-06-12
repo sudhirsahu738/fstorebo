@@ -56,8 +56,5 @@ Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
 
 
 📢 Send me any File & It will be uploaded in My Database & You will Get the File Link. 
-
-
-
 ❌ **PORNOGRAPHY CONTENTS** are strictly prohibited & get Permanent Ban.
 """
