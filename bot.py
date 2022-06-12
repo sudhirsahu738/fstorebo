@@ -47,17 +47,17 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🔆 Sᴜᴘᴘᴏʀᴛ 🔆", url="https://t.me/kxt_movies"),
-						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://t.me/kxt_movies"),
+						InlineKeyboardButton("👨‍🔧ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ", callback_data="aboutdevs"),
+
 						InlineKeyboardButton("👥 Aʙᴏᴜᴛ ", callback_data="aboutbot")
                                         ],
-                                        [
-						InlineKeyboardButton("👨‍🔧 ᴰᵉᵛᵉˡᵒᵖᵉʳ ", callback_data="aboutdevs"),
 
-						InlineKeyboardButton("🚸 ᴾᵒʷᵉʳᵉᵈ ᵇʸ", url="https://t.me/kxt_movies")
-					],
+
+
+
+
                                         [
-						InlineKeyboardButton("🔐 𝐂𝐥𝐨𝐬𝐞 ", callback_data="closeMessage") 
+						InlineKeyboardButton("👥 ᴀʙᴏᴜᴛ ", callback_data="aboutbot") 
 					]
 				]
             )
