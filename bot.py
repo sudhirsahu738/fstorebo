@@ -52,12 +52,12 @@ async def start(bot: Client, cmd: Message):
 						InlineKeyboardButton("👥 Aʙᴏᴜᴛ ", callback_data="aboutbot")
                                         ],
                                         [
-						InlineKeyboardButton("👨‍🔧 Dᴇᴠs ", callback_data="aboutdevs"),
+						InlineKeyboardButton("👨‍🔧 ᴰᵉᵛᵉˡᵒᵖᵉʳ ", callback_data="aboutdevs"),
 
-						InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ ʙʏ", url="https://t.me/kxt_movies")
+						InlineKeyboardButton("🚸 ᴾᵒʷᵉʳᵉᵈ ᵇʸ", url="https://t.me/kxt_movies")
 					],
                                         [
-						InlineKeyboardButton("🔐 Cʟᴏsᴇ ", callback_data="closeMessage") 
+						InlineKeyboardButton("🔐 𝐂𝐥𝐨𝐬𝐞 ", callback_data="closeMessage") 
 					]
 				]
             )
